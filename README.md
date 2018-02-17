@@ -1,6 +1,6 @@
 #
 #
-# Wordpress blog using Terraform and Ansible
+# Deploying Wordpress blog on AWS using Terraform and Ansible
 
 This code will help to create a 3 tier AWS environment containing Dev server, Highly available Production servers behind ELB in ASG, Highly available RDS database (Primary and Failover)
 
@@ -29,10 +29,10 @@ Update the Nameserver of your domain using the NS output from above command.
 
 Change directory to the project directory.
 
-run "terraform init" to initialize and download required plugins
+run "terraform init" to initialize and download required plugins.
 
-run "terraform plan" to review the list of AWS resources created by terraform
+run "terraform plan" to review the list of AWS resources created by terraform.
 
-run "terraform apply" to provision the infrastructure
+run "terraform apply" to provision the infrastructure.
 
 run "ansible-playbook -i aws_hosts s3update.yml" to copy the wordpress content from dev server to S3 bucket created by Terraform.
