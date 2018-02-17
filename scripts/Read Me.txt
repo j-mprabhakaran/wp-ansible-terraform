@@ -1,1 +1,2 @@
-These scripts needs to be populated with appropriate values in the project directory before Terraform apply.
+1. terraform.tfvars needs to be populated with appropriate values in the project directory before terraform apply.
+2. create an empty aws_hosts file for ansible to populate the values during terraform apply.
