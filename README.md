@@ -10,7 +10,7 @@ This code will help to create a 3 tier AWS environment containing Dev server, Hi
 
 Local machine with Python, pip, AWS CLI, Ansible, Terraform installed. Refer instructions below for Ubuntu and MacOS. 
 
-https://gist.github.com/jmprabhakaran/a3def7bacde998c3c2d3bdca8f69e2a9.js
+https://gist.github.com/jmprabhakaran/a3def7bacde998c3c2d3bdca8f69e2a9
 
 Domain name for deploying the website
 
