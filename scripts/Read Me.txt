@@ -1,0 +1,1 @@
+These scripts needs to be populated with appropriate values in the project directory before Terraform apply.
