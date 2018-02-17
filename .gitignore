@@ -1,0 +1,7 @@
+terraform.tfvars
+aws_hosts
+terraform.tfstate
+terraform.tfstate.backup
+prabhakaran
+prabhakaran.pub
+.terraform/
